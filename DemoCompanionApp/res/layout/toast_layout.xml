@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/toast_layout_root"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="8dp"
+            
+              >
+  
+    <TextView  android:id="@+id/toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
+            android:text="@string/connecting"
+            android:textColor="#AF5500"
+            android:textSize="23sp"
+            android:textStyle="bold"
+              />
+</LinearLayout>

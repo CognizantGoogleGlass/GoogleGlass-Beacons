@@ -1,0 +1,120 @@
+{
+    "assets": [
+        {
+            "beaconid": "2F234454-CF6D-4A0F-ADF2-F4911BA9FFA6",
+            "direction": "north",
+            "id": "A2241",
+            "caseinfo": [
+                {
+                    "casetitle": "Silver Bullet",
+                    "degree": "North 30 3 m",
+                    "LastMaintenance": "07 Apr 2014",
+                    "NextMaintenance": "27 May 2014",
+                    "ticketcount": "2",
+                    "TicketDes1": "Belt C5 to be replaced",
+                    "date": "10 Jan 2014",
+                    "cost": "$500",
+                    "TicketDes2": "Change Rusty Buckle in seat belt : D5"
+                },
+                {
+                    "casetitle": "Voyager",
+                    "degree": "North 41 2 m",
+                    "LastMaintenance": "17 Mar 2014",
+                    "NextMaintenance": "17 Apr 2014",
+                    "ticketcount": "1",
+                    "TicketDes1": "General maintenance",
+                    "date": "21 Jan 2014",
+                    "cost": "$100"
+                }
+            ]
+        },
+        {
+            "beaconid": "2F234454-CF6D-4A0F-ADF2-F4911BA9FFA7",
+            "direction": "south",
+            "id": "B2241",
+            "caseinfo": [
+                {
+                    "casetitle": "Vertical Loop",
+                    "degree": "South 45 3 m",
+                    "LastMaintenance": "07 Mar 2014",
+                    "NextMaintenance": "27 Apr 2014",
+                    "ticketcount": "3",
+                    "TicketDes1": "Silver tower to be changed",
+                    "date": "15 Jan 2014",
+                    "cost": "$50",
+                    "TicketDes2": "Fix alignment of the loops",
+                    "TicketDes3": "Recalibrate seat C12"
+                },
+                {
+                    "casetitle": "Voyager",
+                    "degree": "South 55 3 m",
+                    "LastMaintenance": "17 Mar 2014",
+                    "NextMaintenance": "17 May 2014",
+                    "ticketcount": "1",
+                    "TicketDes1": "General maintenance",
+                    "date": "20 Jan 2014",
+                    "cost": "$53"
+                }
+            ]
+        },
+        {
+            "beaconid": "2F234454-CF6D-4A0F-ADF2-F4911BA9FFA8",
+            "direction": "east",
+            "id": "C2241",
+            "caseinfo": [
+                {
+                    "casetitle": "Animation Academy",
+                    "degree": "East 35 2 m",
+                    "LastMaintenance": "07 Apr 2014",
+                    "NextMaintenance": "27 Jun 2014",
+                    "ticketcount": "2",
+                    "TicketDes1": "Fix alignment of the loops",
+                    "date": "17 Jan 2014",
+                    "cost": "$40",
+                    "TicketDes2": "Test run scheduled for 4 hours today"
+                },
+                {
+                    "casetitle": "Buzz Light Year",
+                    "degree": "East 25 1 m",
+                    "LastMaintenance": "17 Feb 2014",
+                    "NextMaintenance": "17 May 2014",
+                    "ticketcount": "4",
+                    "TicketDes1": "Touch screen to be replaced",
+                    "date": "14 Jan 2014",
+                    "cost": "$50",
+                    "TicketDes2": "Network cable to be replaced",
+                    "TicketDes3": "Change chain bracket",
+                    "TicketDes4": "Check belt expiry"
+                }
+            ]
+        },
+        {
+            "beaconid": "2F234454-CF6D-4A0F-ADF2-F4911BA9FFA9",
+            "direction": "west",
+            "id": "C2241",
+            "caseinfo": [
+                {
+                    "casetitle": "Silver Bullet",
+                    "degree": "West 65 4 m",
+                    "LastMaintenance": "07 Apr 2014",
+                    "NextMaintenance": "27 May 2014",
+                    "ticketcount": "2",
+                    "TicketDes1": "Belt D5 to be replaced",
+                    "date": "14 Jan 2014",
+                    "cost": "$51",
+                    "TicketDes2": "Change Rusty Buckle in seat belt : D5"
+                },
+                {
+                    "casetitle": "Voyager",
+                    "degree": "West 72 1 m",
+                    "LastMaintenance": "17 Mar 2014",
+                    "NextMaintenance": "17 Aug 2014",
+                    "ticketcount": "1",
+                    "TicketDes1": "Missing bolts on the left inside wheel assembly of C12",
+                    "date": "12 Jan 2014",
+                    "cost": "$40"
+                }
+            ]
+        }
+    ]
+}

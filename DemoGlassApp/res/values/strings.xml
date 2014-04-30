@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoApplication</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="demoTicket">Show Tickets</string>
+    <string name="helpTxt">Say "Select number option"</string>
+    <string name="pairingTxt">Device Pairing in progress&#8230;</string>
+    <string name="default_direction">North</string>
+    <string name="noWorkOrderTxt">No Tickets Found</string>
+    <string name="approveTxt">Say Approve / Reject</string>
+
+
+</resources>

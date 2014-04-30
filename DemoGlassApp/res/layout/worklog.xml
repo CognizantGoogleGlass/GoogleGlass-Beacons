@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:keepScreenOn="true"
+    android:weightSum="1" >
+   
+     <LinearLayout
+        android:id="@+id/position2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"     
+        android:orientation="vertical">
+    <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.95">
+    
+     <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="0.2"
+            android:text=""/>
+
+        <TextView   
+            android:id="@+id/assetID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textSize="20sp"
+            android:layout_weight="0.3"  
+            android:text="Work Order: " />
+        
+        </TableRow>
+         <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="#ff8300"
+    android:layout_marginLeft="5dp"
+     android:layout_marginRight="5dp"
+    android:paddingTop="15dp" />
+         
+          <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"     
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="0.2"
+            android:text=""/>
+
+        <TextView   
+            android:id="@+id/cost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textSize="20sp"
+            android:layout_weight="0.3"  
+            android:text="Cost: " />
+        
+        </TableRow>
+         <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="#ff8300"
+    android:layout_marginLeft="5dp"
+     android:layout_marginRight="5dp"
+    android:paddingTop="15dp" />
+        
+      <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+          <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="Name"/>
+    </TableRow>
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" 
+        android:layout_weight="0.6">
+ 
+         <view 
+		android:id="@+id/listView1"
+		 android:layout_marginTop="3dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"	
+        android:divider="@null"
+        
+        android:listSelector="@android:color/transparent"
+        class="com.cognizant.glass.demoapp.util.HeadListView" />
+    </TableRow>
+     
+</TableLayout>
+
+    <TextView
+        android:id="@+id/approveTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:padding="15dip"
+        android:textSize="20sp"
+        android:layout_weight="0.05"
+        android:text="@string/approveTxt" />
+    
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">DemoCompanionApp</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="scanning">scanning for devices&#8230;</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="button_text">START SYNC</string>
+    <string name="cognizant_web_address">www.cognizant.com</string>
+    <string name="tag_cognizant">Cognizant</string>
+	<string name="connect_device">CONNECT DEVICE</string>
+	<string name="stop_service">STOP SERVICE</string>
+	<string name="connecting">Connecting</string>
+	<string name="splash_bg">Splash screen background</string>
+	
+</resources>
